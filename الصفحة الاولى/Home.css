@@ -1,0 +1,135 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+   /* ============ header ============ */
+
+header{
+    background-color: rgba(26, 94, 139, 0.133);
+    position: fixed;
+    width: 100%;
+}
+.nav_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+header .logo img{
+    height:58px;
+    width: 58px;
+    margin-left:3px ;
+}
+header .nav_header ul{
+    display: flex;
+    list-style: none;
+}
+header .nav_header ul li{
+    justify-content: space-around;
+    margin-left: 60px;
+}
+header .nav_header ul li a{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+header .nav_header ul li a:hover {
+    color: rgb(246, 255, 0);
+}
+
+
+/* ============ home ============ */
+
+.home{
+    background-image: url(1.png);
+    background-size: cover;
+    height: 100vh;
+}
+.home .home__text{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+}
+.home .home__text h1{
+    font-size: 65px;
+    padding: 80px 0 0 0;
+    text-transform:capitalize;
+}
+.home .home__text p{
+    font-size: 28px;
+    margin-top: 25px;
+    padding: 0 235px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    line-height: 60px;
+}
+
+    /* ============ footer ============ */
+
+footer{
+    background-color: rgba(49, 114, 158, 0.339);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+footer img{
+    height: 80px;
+    width: 80px;
+    margin-left:10px ; 
+}
+footer .number ul {
+    width:fit-content ;
+    list-style: none;
+    display: flex;
+    flex-direction:column ;
+}
+footer .number ul li{
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+footer .number ul li a{
+   text-decoration: none;
+   font-size: 22px;
+   font-weight: bolder;
+   color: white
+}
+    footer .contact ul {
+        width: fit-content;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+}
+    footer .contact ul li{
+      margin-top: 3px;
+      margin-bottom: 3px;
+      line-height: 9px;
+}
+    footer .contact ul li a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: white
+        
+}
+    footer .contact ul li img{
+      width: 18px;
+      height: 18px;
+      margin-top:2px;      
+}
+footer .contact ul li a:hover {
+    color: rgb(246, 255, 0);
+}
+footer .number ul li a:hover {
+    color: rgb(246, 255, 0);
+}
